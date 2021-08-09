@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.error-message {
+    width: 50rem;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 5rem auto;
+    border-top: 4px solid red;
+    padding: 4rem 2rem;
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.025);
+    position: relative;
+}
+
+.error-close {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    color: red;
+    cursor: pointer;
+}
+
+.error-icon {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    border-radius: 5rem;
+    background-color: red;
+    position: relative;
+    left: -6rem;
+}
+
+.error-icon i {
+    margin-right: 2rem;
+}
+
+.error-title {
+    text-transform: uppercase;
+    font-style: 1.6rem;
+    color: red;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.error-notice {
+    color: #ccc;
+}
+
+.error-reconnect {
+    font-weight: bold;
+    color: #1a1c28;
+}

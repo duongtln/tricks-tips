@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.error-message{
+    width: 50rem;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 5rem auto;
+    border-top: 4px solid red;
+}
+.error-icon{
+
+}
+.fa{
+
+}
+.fa-wifi{
+
+}
+.error-content{
+
+}
+.error-title{
+
+}
+.error-notice{
+
+}
+.error-reconnect{
+
+}
+.fa.fa-wifi{
+
+}
