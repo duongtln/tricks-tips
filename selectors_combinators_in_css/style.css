@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    color: red;
+    font-size: 5rem;
+}
+
+.title {
+    color: blue;
+    font-size: 4rem;
+}
+
+.title + .demo {
+    color: orange;
+}
+
+.title ~ .demo2 {
+    color: pink;
+}
+
+.list > li {
+    color: salmon;
+}
+
+.list > li:first-child {
+    font-size: 5rem;
+}
+
+.list > li:last-child {
+    font-size: 5rem;
+}
+
+.list > li:nth-child(2) {
+    font-size: 5rem;
+}
+
+.list > li:nth-last-child(2) {
+    font-size: 5rem;
+}
+
+.list2 li:first-of-type {
+    color: red;
+}
+
+.list2 li:nth-last-of-type(1) {
+    font-size: 5rem;
+}
+
+.list2 li:nth-of-type(1) {
+    font-size: 5rem;
+}
+
+div[style^="cursor: pointer"] {
+    color: red;
+}
+
+div[data-title*="title"] {
+    color: blue;
+}
