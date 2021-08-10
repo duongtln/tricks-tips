@@ -1,0 +1,90 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color: #7b78f8;
+    --shadow: rgba(123, 120, 248, 0.5) 0px 10px 20px 0px;
+    --line: #ccc;
+}
+
+.triangle{
+    background-color: var(--color);
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    margin: 50px;
+    position: relative;
+}
+
+.triangle:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid var(--color);
+}
+
+.triangle-1{
+    background-color: var(--color);
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    margin: 50px;
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.triangle-1:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: var(--color);
+    transform: rotate(45deg);
+    box-shadow: var(--shadow);
+    z-index: -1;
+}
+
+.triangle-2{
+    background-color: #fff;
+    border: 1px solid var(--line);
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    margin: 50px;
+    position: relative;
+}
+
+.triangle-2:before,
+.triangle-2:after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    transform: rotate(45deg);
+    border: 1px solid var(--line);
+    z-index: -1;
+}
+
+.triangle-2:after {
+    background-color: #fff;
+    left: 21px;
+    top: -7px;
+    border: 0;
+    z-index: 2;
+}

@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: yellowgreen;
+    display: block;
+    margin: 4px auto;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.button{
+    width: min-content;
+}
+.button_1{
+    width: max-content;
+}
+.button_2{
+    width: fit-content;
+}

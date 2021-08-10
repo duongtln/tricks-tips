@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.box1 {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+}
+
+.box2 {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-color: blue;
+}
+
+.box3 {
+    width: 50%;
+    height: 20rem;
+    background-color: red;
+}
+
+.box4 {
+    width: 50%;
+    height: 20rem;
+    background-color: blue;
+}
+
+.box-child1,
+.box-child2 {
+    background-color: black;
+    height: 5rem;
+}
+
+.box-child1 {
+    width: 100%;
+    border-color: olivedrab;
+}
+
+.box-child2 {
+    width: 100vw;
+}
+
+.boxed {
+    padding: 20px;
+    background-color: #ffa400;
+    /* width: 100%; */
+    width: auto;
+    margin-left: 250px;
+}
